@@ -30,10 +30,15 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#" class="icon-pluma"><span>Publicar</span></a>
+				<a href="#" class="icon-pluma" id="mostrar-form"><span>Publicar</span></a>
 			</li>
 		</ul>
 	</nav>
+	<form action="" id="formulario" class="formulario">
+		<input type="text" id="titulo"  placeholder="Título" required />
+		<input type="url" id="url"  placeholder="Link" required />
+		<input type="submit" value="Agregar" />
+	</form>
 	<aside>
 		<video width="320" heigth="240" autoplay controls poster="lecturas.jpg">
 			<source src="lecturas.m4v" type="video/mp4" />
@@ -69,84 +74,7 @@
 				<a href="#" class="guardar_item icon-estrella"></a>				
 			</div>
 		</article>
-		<article class="item">
-			<figure class="imagen_item">
-				<img src="imagen.jpg">
-			</figure>
-			<h2 class="titulo_item">
-				<a href="#">
-					Dominio, virtual para laravel en ubuntu
-				</a>
-			</h2>
-			<div class="autor_item">
-				por <a href="#">Joana Muñoz</a>
-			</div>
-			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
-				<span class="fecha_item">
-					hace <strong>5</strong> min
-				</span>
-			</div>
-			<div class="votacion">
-				<a href="#" class="up icon-f-arriba"></a>
-				720
-				<a href="#" class="down icon-f-abajo"></a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item icon-estrella"></a>				
-			</div>
-		</article>
-		<article class="item">
-			<figure class="imagen_item">
-				<img src="imagen.jpg">
-			</figure>
-			<h2 class="titulo_item">
-				<a href="#">
-					Top 5 herramientas para realizar SEO
-				</a>
-			</h2>
-			<div class="autor_item">
-				por <a href="#">Joana Muñoz</a>
-			</div>
-			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
-				<span class="fecha_item">
-					hace <strong>5</strong> min
-				</span>
-			</div>
-			<div class="votacion">
-				<a href="#" class="up icon-f-arriba"></a>
-				720
-				<a href="#" class="down icon-f-abajo"></a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item icon-estrella"></a>				
-			</div>
-		</article>
-		<article class="item">
-			<figure class="imagen_item">
-				<img src="imagen.jpg">
-			</figure>
-			<h2 class="titulo_item">
-				<a href="#">
-					Top 5 herramientas para realizar SEO
-				</a>
-			</h2>
-			<div class="autor_item">
-				por <a href="#">Joana Muñoz</a>
-			</div>
-			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
-				<span class="fecha_item">
-					hace <strong>5</strong> min
-				</span>
-			</div>
-			<div class="votacion">
-				<a href="#" class="up icon-f-arriba"></a>
-				720
-				<a href="#" class="down icon-f-abajo"></a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item icon-estrella"></a>				
-			</div>
-		</article>		
+		
 	</section>
 	<footer>
 		<p>
@@ -156,5 +84,7 @@
 			mejorando.la 2014
 		</p>
 	</footer>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="formulario.js"></script>
 </body>
 </html>

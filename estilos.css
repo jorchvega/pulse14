@@ -298,3 +298,26 @@ aside{
 		width: 100%;
 	}
 }
+
+/*
+	FORMULARIO
+*/
+.formulario{
+	display: none;
+	padding: 1em;
+	text-align: right;
+}
+.formulario input{
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 0.2em 0.6em;
+}
+.formulario input[type="submit"]{
+	background: #22BCE0;
+	border: 1px solid #22BCE0;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
