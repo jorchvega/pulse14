@@ -3,7 +3,7 @@ var $form = $("#formulario"),
 	$url = $("#url"),
 	$boton = $("#mostrar-form"),
 	$list = $("#contenido"),
-	$post = $(".item");
+	$post = $(".item").first();
 
 
 function mostrarFormulario(){
