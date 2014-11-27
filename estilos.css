@@ -169,6 +169,14 @@ nav ul #publicar_nav a:hover:before
 	top: 0.6em;
 	left: 0.2em;
 }
+
+nav ul #publicar_nav a.disabled
+{
+	background: grey;
+	cursor: default;
+	box-shadow: none;
+}
+
 nav ul li a:hover{
 	background: #343B54;
 }
